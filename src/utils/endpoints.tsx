@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = "https://blog-web-gbwz.onrender.com"
 
 const LOGIN_ENDPOINT = BASE_URL + '/user/login'
 const SIGNUP_ENDPOINT = BASE_URL + '/user/signup'
