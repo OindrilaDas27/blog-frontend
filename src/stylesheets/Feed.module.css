@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: 2px solid #b3bdbd;
+    border-right: 2px solid #b3bdbd;
+    min-height: 100vh;
+  }
+  
+  .tab {
+    margin-top: 10px;
+    padding: 11px 0 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    outline: 0;
+    cursor: pointer;
+    color: var(--blog);
+    border-bottom: 2px solid #b3bdbd;
+  }
+  
+  .tab:hover {
+    color: var(--primary);
+    background: var(--blog-dark-hover);
+  }
+  
+  .tweets {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  

@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--outline);
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.container:hover {
+  background: var(--blog-light-hover);
+}
+
+
+
+.body {
+  display: flex;
+  margin-top: 3px;
+  position: relative;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2px;
+  padding-left: 59px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.header strong {
+  margin-right: 5px;
+}
+
+.header span,
+time {
+  color: var(--gray);
+}
+
+.header strong,
+.header span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.dot {
+  background: var(--gray);
+  width: 2px;
+  height: 2px;
+  margin: 0 10px;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.imageContent img {
+  margin-top: 12px;
+  width: 100%;
+  height: min(385px, max(275px, 51vw));
+  background: var(--outline);
+  border-radius: 14px;
+  border: 2px solid var(--outline);
+}
+
+.modifyOptionContainer {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.editOption {
+  height: 2rem;
+  width: fit-content;
+  background-color: #F8D44C;
+  padding: 0.4rem 1rem 0;
+  text-align: center;
+  margin-right: 10px;
+  color: var(--outline);
+  border: 1px solid var(--outline);
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteOption {
+  margin-right: 10px;
+  height: 2rem;
+  width: fit-content;
+  background-color: #f8664c;
+  padding: 0.4rem 1rem 0;
+  text-align: center;
+  margin-right: 10px;
+  color: var(--primary);
+  border: 1px solid var(--outline);
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
